@@ -64,7 +64,7 @@ function draw() {
   fill(0);
   noStroke();
   textFont("Trebuchet MS");
-  text("MARBLE_EXPERIENCE", width / 2, 30);
+  text("MARBLE___EXPERIENCE", width / 2, 30);
 
   textSize(height / 30);
   fill(0);
