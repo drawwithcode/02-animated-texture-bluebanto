@@ -2,6 +2,13 @@
 Antonio Federico Brunetti
 2nd Assignment_MarbleExperience*/
 
+//INSERISCO FONT A MIO PIACIMENTO
+function preload() {
+  //carico la mia font dagli assets
+  myFont = loadFont("./assets/fonts/PPNeueMontreal-Medium.otf");
+  myFont2 = loadFont("./assets/fonts/PPNeueMontreal-Book.otf");
+}
+
 let c;
 let q = [];
 let tz = 0.0;
@@ -29,7 +36,7 @@ function setup() {
   fill(0);
   stroke(0);
   strokeWeight(2);
-  textFont("Trebuchet MS");
+  textFont(myFont2);
   text("BLUEBANTO", width / 2, height / 2);
 
   c = get();
@@ -57,18 +64,18 @@ function draw() {
   textSize(height / 30);
   fill(0);
   noStroke();
-  textFont("Trebuchet MS");
+  textFont(myFont);
   text("BLUEBANTO", 90, 30);
 
   textSize(height / 30);
   fill(0);
   noStroke();
-  textFont("Trebuchet MS");
-  text("MARBLE___EXPERIENCE", width / 2, 30);
+  textFont(myFont);
+  text("MARBLE_EXPERIENCE", width / 2, 30);
 
   textSize(height / 30);
   fill(0);
   noStroke();
-  textFont("Trebuchet MS");
-  text("CC___2021", width - 90, 30);
+  textFont(myFont);
+  text("CC_2021", width - 90, 30);
 }
